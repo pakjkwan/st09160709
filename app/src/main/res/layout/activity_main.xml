@@ -28,4 +28,14 @@
         android:layout_height="wrap_content"
         android:text="카우푸지수"
         android:id="@+id/btKaup"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:id="@+id/btJoin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:id="@+id/btLogin"/>
 </LinearLayout>

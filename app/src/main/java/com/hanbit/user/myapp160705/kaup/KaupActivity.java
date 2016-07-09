@@ -1,4 +1,4 @@
-package com.hanbit.user.myapp160705;
+package com.hanbit.user.myapp160705.kaup;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.hanbit.user.myapp160705.MainActivity;
+import com.hanbit.user.myapp160705.R;
 
 public class KaupActivity extends Activity implements View.OnClickListener{
     EditText name,height,weight;

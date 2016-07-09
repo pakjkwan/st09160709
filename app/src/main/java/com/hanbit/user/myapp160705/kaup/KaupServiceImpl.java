@@ -1,4 +1,4 @@
-package com.hanbit.user.myapp160705;
+package com.hanbit.user.myapp160705.kaup;
 
 /**
  * Created by hb on 2016-07-09.
@@ -7,8 +7,8 @@ public class KaupServiceImpl implements KaupService{
     @Override
     public String execute(KaupBean bean) {
         String name = bean.getName();
-        int height=bean.getHeight(),weight=bean.getWeight();
-        int index = (weight/height*height)*10000;
+        int height=bean.getHeight(),weight=(bean.getWeight())*1000;
+        int index = (weight/(height*height))*10;
         String result = "";
        if(index >= 20){
             result = "비만";
