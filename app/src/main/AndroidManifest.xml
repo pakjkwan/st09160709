@@ -20,7 +20,8 @@
         <activity android:name=".calc.CalendarActivity" />
         <activity android:name=".kaup.KaupActivity" />
         <activity android:name=".member.JoinActivity" />
-        <activity android:name=".member.LoginActivity"></activity>
+        <activity android:name=".member.LoginActivity" />
+        <activity android:name=".ContactsActivity"></activity>
     </application>
 
 </manifest>

@@ -8,8 +8,6 @@ import android.util.Log;
 public class MemberServiceImpl implements MemberService {
     public static String sessionID,sessionPW;
 
-
-
     @Override
     public String join(MemberBean bean) {
         String id = bean.getId();
